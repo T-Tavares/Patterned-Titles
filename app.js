@@ -79,8 +79,9 @@ function printTitle(titleString, titleLength, titleORsubtitle) {
 
 }
 
-const title = 'copy to clipboard and log'
+const title = '/* ---------------------------- OUTPUT ---------------------------- */'
 
-printTitle(title, 70)
-printTitle(title, 70, 'subtitle')
+// printTitle(title, 70)
+// printTitle(title, 70, 'subtitle')
 
+console.log(title.length);
